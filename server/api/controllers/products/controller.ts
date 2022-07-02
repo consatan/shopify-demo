@@ -17,7 +17,7 @@ export class Controller {
       req.query?.overwrite?.toString().toUpperCase() === 'TRUE' || false;
     const locationId =
       Number(req.query?.location_id) ||
-      process.env?.SHOPIFY_DEFAULT_LOCATION_ID ||
+      process.env.SHOPIFY_DEFAULT_LOCATION_ID ||
       undefined;
 
     try {

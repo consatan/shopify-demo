@@ -14,16 +14,16 @@ export default function errorHandler(
   _next: NextFunction
 ): void {
   const data = {};
-  const status = err?.status || 500;
+  const status = err.status || 500;
   let errors = [];
 
-  if (err?.errors) {
+  if (err.errors) {
     if (Array.isArray(err.errors)) {
       if (err.errors.length) {
         errors = err.errors.map((e) => {
           if (typeof e === 'string') {
             return e;
-          } else if (e?.message && typeof e.message === 'string') {
+          } else if (e.message && typeof e.message === 'string') {
             return e.message;
           } else {
             return JSON.stringify(e);
@@ -43,7 +43,7 @@ export default function errorHandler(
 
   if (errors.length === 0) {
     errors =
-      typeof err?.message === 'string'
+      typeof err.message === 'string'
         ? [err.message]
         : ['Unknown server error'];
   }

@@ -23,10 +23,11 @@ export interface PaginationPageInfo {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const isPaginationResponse = (obj: any): obj is PaginationResponse => {
   return (
-    typeof obj?.data === 'object' &&
-    typeof obj.pageInfo?.limit === 'number' &&
-    typeof obj.pageInfo?.next === 'string' &&
-    typeof obj.pageInfo?.previous === 'string'
+    typeof obj.data === 'object' &&
+    typeof obj.pageInfo === 'object' &&
+    typeof obj.pageInfo.limit === 'number' &&
+    typeof obj.pageInfo.next === 'string' &&
+    typeof obj.pageInfo.previous === 'string'
   );
 };
 

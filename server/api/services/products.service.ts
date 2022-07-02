@@ -88,7 +88,7 @@ export class ProductsService {
       url: p.legacyResourceId
         ? `https://${shopify.session.shop}/products/${p.handle}`
         : null,
-      errors: p?.errors
+      errors: p.errors
         ? typeof p.errors === 'string'
           ? p.errors
           : JSON.stringify(p.errors)

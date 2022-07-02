@@ -19,7 +19,7 @@ export class Controller {
 
   // Updates a collection
   update(req: Request, res: Response, next: NextFunction): void {
-    const id = req.params?.id as string | number;
+    const id = req.params.id as string | number;
 
     CollectionsService.update(id, {
       title: req.body?.title,
