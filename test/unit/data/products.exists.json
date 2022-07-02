@@ -1,0 +1,1708 @@
+[
+  {
+    "id": 7091448021037,
+    "title": "7 Shakra Bracelet",
+    "body_html": "7 chakra bracelet, in blue or black.",
+    "vendor": "Company 123",
+    "product_type": "Bracelet",
+    "created_at": "2022-06-30T06:20:49-07:00",
+    "handle": "chain-bracelet",
+    "updated_at": "2022-06-30T06:20:51-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Beads",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448021037",
+    "variants": [
+      {
+        "id": 40842067279917,
+        "product_id": 7091448021037,
+        "title": "Blue",
+        "price": "42.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "44.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Blue",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": 30243225042989,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881405997,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067279917"
+      },
+      {
+        "id": 40842067312685,
+        "product_id": 7091448021037,
+        "title": "Black",
+        "price": "42.99",
+        "sku": "",
+        "position": 2,
+        "inventory_policy": "deny",
+        "compare_at_price": "44.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Black",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": 30243224944685,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881438765,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067312685"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261026861,
+        "product_id": 7091448021037,
+        "name": "Color1",
+        "position": 1,
+        "values": [
+          "Blue",
+          "Black"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243224944685,
+        "product_id": 7091448021037,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1386,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/7-chakra-bracelet_925x_ab4fb364-6540-4a5e-b07f-17b85ccc61bb.jpg?v=1656487249",
+        "variant_ids": [
+          40842067312685
+        ],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243224944685"
+      },
+      {
+        "id": 30243225042989,
+        "product_id": 7091448021037,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/navy-blue-chakra-bracelet_925x_1e24a22f-4937-4ce1-8780-61f96f71cee2.jpg?v=1656487250",
+        "variant_ids": [
+          40842067279917
+        ],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225042989"
+      }
+    ],
+    "image": {
+      "id": 30243224944685,
+      "product_id": 7091448021037,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:49-07:00",
+      "updated_at": "2022-06-30T06:20:49-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 1386,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/7-chakra-bracelet_925x_ab4fb364-6540-4a5e-b07f-17b85ccc61bb.jpg?v=1656487249",
+      "variant_ids": [
+        40842067312685
+      ],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243224944685"
+    }
+  },
+  {
+    "id": 7091448250413,
+    "title": "Anchor Bracelet Mens",
+    "body_html": "Black leather bracelet with gold or silver anchor for men.",
+    "vendor": "Company 123",
+    "product_type": "Bracelet",
+    "created_at": "2022-06-30T06:20:50-07:00",
+    "handle": "leather-anchor",
+    "updated_at": "2022-06-30T06:20:55-07:00",
+    "published_at": "2022-06-30T06:20:49-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Anchor, Gold, Leather, Silver",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448250413",
+    "variants": [
+      {
+        "id": 40842067509293,
+        "product_id": 7091448250413,
+        "title": "Gold",
+        "price": "69.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "85.00",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Gold",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": 30243225567277,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881602605,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067509293"
+      },
+      {
+        "id": 40842067542061,
+        "product_id": 7091448250413,
+        "title": "Silver",
+        "price": "55.00",
+        "sku": "",
+        "position": 2,
+        "inventory_policy": "deny",
+        "compare_at_price": "85.00",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Silver",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881635373,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067542061"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261256237,
+        "product_id": 7091448250413,
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Gold",
+          "Silver"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243225567277,
+        "product_id": 7091448250413,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/anchor-bracelet-mens_925x_35dca0cc-58da-414e-a577-e33a9f416dd1.jpg?v=1656487250",
+        "variant_ids": [
+          40842067509293
+        ],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225567277"
+      },
+      {
+        "id": 30243225600045,
+        "product_id": 7091448250413,
+        "position": 3,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1387,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/leather-anchor-bracelet-for-men_925x_804d15ed-6c4c-4f31-876e-d6143edc8610.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225600045"
+      }
+    ],
+    "image": {
+      "id": 30243225567277,
+      "product_id": 7091448250413,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:50-07:00",
+      "updated_at": "2022-06-30T06:20:50-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 618,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/anchor-bracelet-mens_925x_35dca0cc-58da-414e-a577-e33a9f416dd1.jpg?v=1656487250",
+      "variant_ids": [
+        40842067509293
+      ],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243225567277"
+    }
+  },
+  {
+    "id": 7091447857197,
+    "title": "Bangle Bracelet",
+    "body_html": "Gold bangle bracelet with studded jewels.",
+    "vendor": "Company 123",
+    "product_type": "Bracelet",
+    "created_at": "2022-06-30T06:20:49-07:00",
+    "handle": "bangle-bracelet",
+    "updated_at": "2022-06-30T06:20:50-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Diamond, Gem, Gold",
+    "admin_graphql_api_id": "gid://shopify/Product/7091447857197",
+    "variants": [
+      {
+        "id": 40842067050541,
+        "product_id": 7091447857197,
+        "title": "Default Title",
+        "price": "39.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "43.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881143853,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067050541"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038260863021,
+        "product_id": 7091447857197,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      },
+      {
+        "id": 9038260863022,
+        "product_id": 7091447857197,
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Blue"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243224682541,
+        "product_id": 7091447857197,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/bangle-bracelet-with-jewels_925x_9d4fa860-2065-4f89-a96b-b36286f3a7b9.jpg?v=1656487249",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243224682541"
+      }
+    ],
+    "image": {
+      "id": 30243224682541,
+      "product_id": 7091447857197,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:49-07:00",
+      "updated_at": "2022-06-30T06:20:49-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 618,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/bangle-bracelet-with-jewels_925x_9d4fa860-2065-4f89-a96b-b36286f3a7b9.jpg?v=1656487249",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243224682541"
+    }
+  },
+  {
+    "id": 7091447726125,
+    "title": "Boho Bangle Bracelet",
+    "body_html": "Gold boho bangle bracelet with multicolor tassels.",
+    "vendor": "Company 123",
+    "product_type": "Bracelet",
+    "created_at": "2022-06-30T06:20:48-07:00",
+    "handle": "bangle-bracelet-with-feathers",
+    "updated_at": "2022-06-30T06:20:51-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Gold",
+    "admin_graphql_api_id": "gid://shopify/Product/7091447726125",
+    "variants": [
+      {
+        "id": 40842066952237,
+        "product_id": 7091447726125,
+        "title": "Default Title",
+        "price": "42.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "44.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title1",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881045549,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842066952237"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038260731949,
+        "product_id": 7091447726125,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title1"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243224551469,
+        "product_id": 7091447726125,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/bangle-bracelet-with-feathers_925x_98f4140e-6715-4c62-bf8c-6e9d199c4017.jpg?v=1656487249",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243224551469"
+      }
+    ],
+    "image": {
+      "id": 30243224551469,
+      "product_id": 7091447726125,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:49-07:00",
+      "updated_at": "2022-06-30T06:20:49-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 617,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/bangle-bracelet-with-feathers_925x_98f4140e-6715-4c62-bf8c-6e9d199c4017.jpg?v=1656487249",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243224551469"
+    }
+  },
+  {
+    "id": 7091448315949,
+    "title": "Boho Earrings",
+    "body_html": "Turquoise globe earrings on 14k gold hooks.",
+    "vendor": "Company 123",
+    "product_type": "Earrings",
+    "created_at": "2022-06-30T06:20:51-07:00",
+    "handle": "boho-earrings",
+    "updated_at": "2022-06-30T06:20:56-07:00",
+    "published_at": "2022-06-30T06:20:49-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Silver, Turquoise",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448315949",
+    "variants": [
+      {
+        "id": 40842067640365,
+        "product_id": 7091448315949,
+        "title": "Default Title",
+        "price": "27.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "35.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "lb",
+        "inventory_item_id": 42888881733677,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067640365"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261321773,
+        "product_id": 7091448315949,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243225763885,
+        "product_id": 7091448315949,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/boho-earrings_925x_5614bd41-ab6b-4cb3-8238-d9d4e3fbcf9a.jpg?v=1656487251",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225763885"
+      },
+      {
+        "id": 30243225796653,
+        "product_id": 7091448315949,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1387,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/inspired-woman_925x_b42d3d56-1a47-4f2a-9d1c-4121d0412ce4.jpg?v=1656487251",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225796653"
+      },
+      {
+        "id": 30243225829421,
+        "product_id": 7091448315949,
+        "position": 3,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1387,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/necklace-earrings-set_925x_00457aa2-a0d6-41e0-9231-315591bd00d3.jpg?v=1656487251",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225829421"
+      }
+    ],
+    "image": {
+      "id": 30243225763885,
+      "product_id": 7091448315949,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:51-07:00",
+      "updated_at": "2022-06-30T06:20:51-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 618,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/boho-earrings_925x_5614bd41-ab6b-4cb3-8238-d9d4e3fbcf9a.jpg?v=1656487251",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243225763885"
+    }
+  },
+  {
+    "id": 7091448217645,
+    "title": "Dainty Gold Necklace",
+    "body_html": "Dainty gold necklace with two pendants.",
+    "vendor": "Company 123",
+    "product_type": "Necklace",
+    "created_at": "2022-06-30T06:20:50-07:00",
+    "handle": "dainty-gold-neclace",
+    "updated_at": "2022-06-30T06:20:55-07:00",
+    "published_at": "2022-06-30T06:20:49-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Gold, Pendant",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448217645",
+    "variants": [
+      {
+        "id": 40842067443757,
+        "product_id": 7091448217645,
+        "title": "Default Title",
+        "price": "63.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "69.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881537069,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067443757"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261190701,
+        "product_id": 7091448217645,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243225403437,
+        "product_id": 7091448217645,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1386,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/dainty-gold-necklace_925x_9aa3073f-0d95-4ee9-a9a1-6cb3d68909a9.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225403437"
+      },
+      {
+        "id": 30243225436205,
+        "product_id": 7091448217645,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/womens-gold-necklace_925x_8ddcd742-1ce9-4b25-b1f8-d8c7646fd212.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225436205"
+      }
+    ],
+    "image": {
+      "id": 30243225403437,
+      "product_id": 7091448217645,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:50-07:00",
+      "updated_at": "2022-06-30T06:20:50-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 1386,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/dainty-gold-necklace_925x_9aa3073f-0d95-4ee9-a9a1-6cb3d68909a9.jpg?v=1656487250",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243225403437"
+    }
+  },
+  {
+    "id": 7091447988269,
+    "title": "Dreamcatcher Pendant Necklace",
+    "body_html": "Turquoise beaded dream catcher necklace. Silver feathers adorn this beautiful dream catcher, which move and twinkle as you walk.",
+    "vendor": "Sterling Ltd",
+    "product_type": "Necklace",
+    "created_at": "2022-06-30T06:20:49-07:00",
+    "handle": "dreamcatcher-pendant-necklace",
+    "updated_at": "2022-06-30T06:20:51-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Dreamcatcher, Pendant, Silver, Turquoise",
+    "admin_graphql_api_id": "gid://shopify/Product/7091447988269",
+    "variants": [
+      {
+        "id": 40842067214381,
+        "product_id": 7091447988269,
+        "title": "Default Title",
+        "price": "23.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "41.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": 30243224879149,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881307693,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067214381"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038260994093,
+        "product_id": 7091447988269,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243224879149,
+        "product_id": 7091447988269,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/dreamcatcher-pendant-necklace_925x_768bc571-1ae1-4e07-a05f-efc30a5b368f.jpg?v=1656487249",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243224879149"
+      },
+      {
+        "id": 30243224911917,
+        "product_id": 7091447988269,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/gold-dream-catcher-necklace_925x_a31326da-ded1-4af3-9591-97ebab6c04d7.jpg?v=1656487249",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243224911917"
+      }
+    ],
+    "image": {
+      "id": 30243224879149,
+      "product_id": 7091447988269,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:49-07:00",
+      "updated_at": "2022-06-30T06:20:49-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 617,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/dreamcatcher-pendant-necklace_925x_768bc571-1ae1-4e07-a05f-efc30a5b368f.jpg?v=1656487249",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243224879149"
+    }
+  },
+  {
+    "id": 7091448283181,
+    "title": "Gemstone Necklace",
+    "body_html": "<p>Gemstone pendant, housed in sterling silver, with sterling silver chain.</p>\n<ul>\n<li>Sterling silver chain, 14 inches</li>\n<li>Turquoise or Quartz</li>\n<li>Boho Chic</li>\n<li>Made in USA</li>\n</ul>",
+    "vendor": "Sterling Ltd",
+    "product_type": "Necklace",
+    "created_at": "2022-06-30T06:20:51-07:00",
+    "handle": "gemstone",
+    "updated_at": "2022-06-30T06:20:55-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Blue, Gem, Purple, Silver, Turquoise",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448283181",
+    "variants": [
+      {
+        "id": 40842067574829,
+        "product_id": 7091448283181,
+        "title": "Blue",
+        "price": "27.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "29.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Blue",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": 30243225632813,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881668141,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067574829"
+      },
+      {
+        "id": 40842067607597,
+        "product_id": 7091448283181,
+        "title": "Purple",
+        "price": "27.99",
+        "sku": "",
+        "position": 2,
+        "inventory_policy": "deny",
+        "compare_at_price": "29.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Purple",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": 30243225731117,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881700909,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067607597"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261289005,
+        "product_id": 7091448283181,
+        "name": "Colour",
+        "position": 1,
+        "values": [
+          "Blue",
+          "Purple"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243225632813,
+        "product_id": 7091448283181,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/blue-gemstone-pendant_925x_08faa0a8-9fa8-45aa-9be3-f33a9e229ed1.jpg?v=1656487251",
+        "variant_ids": [
+          40842067574829
+        ],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225632813"
+      },
+      {
+        "id": 30243225665581,
+        "product_id": 7091448283181,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1386,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/gemstone-necklace_925x_b73b52c5-3a6c-4c36-ab46-e4d267595688.jpg?v=1656487251",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225665581"
+      },
+      {
+        "id": 30243225698349,
+        "product_id": 7091448283181,
+        "position": 3,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/womens-necklace_925x_246be8ba-aaf8-4934-91ae-509f1bbc4151.jpg?v=1656487251",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225698349"
+      },
+      {
+        "id": 30243225731117,
+        "product_id": 7091448283181,
+        "position": 4,
+        "created_at": "2022-06-30T06:20:51-07:00",
+        "updated_at": "2022-06-30T06:20:51-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/purple-gemstone-necklace_925x_106afc38-cbfd-43be-8c6a-f481ce4d72d3.jpg?v=1656487251",
+        "variant_ids": [
+          40842067607597
+        ],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225731117"
+      }
+    ],
+    "image": {
+      "id": 30243225632813,
+      "product_id": 7091448283181,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:51-07:00",
+      "updated_at": "2022-06-30T06:20:51-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 618,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/blue-gemstone-pendant_925x_08faa0a8-9fa8-45aa-9be3-f33a9e229ed1.jpg?v=1656487251",
+      "variant_ids": [
+        40842067574829
+      ],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243225632813"
+    }
+  },
+  {
+    "id": 7091447791661,
+    "title": "Gold Bird Necklace",
+    "body_html": "14k Gold delicate necklace, with bird between two chains.",
+    "vendor": "Company 123",
+    "product_type": "Necklace",
+    "created_at": "2022-06-30T06:20:49-07:00",
+    "handle": "gold-bird-necklace",
+    "updated_at": "2022-06-30T06:20:50-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Bird, Gold",
+    "admin_graphql_api_id": "gid://shopify/Product/7091447791661",
+    "variants": [
+      {
+        "id": 40842066985005,
+        "product_id": 7091447791661,
+        "title": "Default Title",
+        "price": "79.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": null,
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881078317,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842066985005"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038260797485,
+        "product_id": 7091447791661,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243224617005,
+        "product_id": 7091447791661,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/gold-bird-necklace_925x_4d5c4213-d02d-4c76-b3a4-4a81703fa7f7.jpg?v=1656487249",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243224617005"
+      }
+    ],
+    "image": {
+      "id": 30243224617005,
+      "product_id": 7091447791661,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:49-07:00",
+      "updated_at": "2022-06-30T06:20:49-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 618,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/gold-bird-necklace_925x_4d5c4213-d02d-4c76-b3a4-4a81703fa7f7.jpg?v=1656487249",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243224617005"
+    }
+  },
+  {
+    "id": 7091447758893,
+    "title": "Gold Elephant Earrings",
+    "body_html": "Small 14k gold elephant earrings, with opal ear detail.",
+    "vendor": "Company 123",
+    "product_type": "Earrings",
+    "created_at": "2022-06-30T06:20:48-07:00",
+    "handle": "looped-earrings",
+    "updated_at": "2022-06-30T06:20:50-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Gold, Silver",
+    "admin_graphql_api_id": "gid://shopify/Product/7091447758893",
+    "variants": [
+      {
+        "id": 40842066919469,
+        "product_id": 7091447758893,
+        "title": "Default Title",
+        "price": "54.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": null,
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881012781,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842066919469"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038260764717,
+        "product_id": 7091447758893,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243224584237,
+        "product_id": 7091447758893,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/elephant-earrings_925x_f7dfec8b-927d-46af-8617-a190c3a6a0e2.jpg?v=1656487249",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243224584237"
+      }
+    ],
+    "image": {
+      "id": 30243224584237,
+      "product_id": 7091447758893,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:49-07:00",
+      "updated_at": "2022-06-30T06:20:49-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 618,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/elephant-earrings_925x_f7dfec8b-927d-46af-8617-a190c3a6a0e2.jpg?v=1656487249",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243224584237"
+    }
+  },
+  {
+    "id": 7091448086573,
+    "title": "Guardian Angel Earrings",
+    "body_html": "Sterling silver guardian angel earrings with diamond gemstones.",
+    "vendor": "Sterling Ltd",
+    "product_type": "Earrings",
+    "created_at": "2022-06-30T06:20:49-07:00",
+    "handle": "guardian-angel-earrings",
+    "updated_at": "2022-06-30T06:20:50-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Angel, Silver",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448086573",
+    "variants": [
+      {
+        "id": 40842067345453,
+        "product_id": 7091448086573,
+        "title": "Default Title",
+        "price": "19.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": null,
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881373229,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067345453"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261092397,
+        "product_id": 7091448086573,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243225075757,
+        "product_id": 7091448086573,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/guardian-angel-earrings_925x_4599216e-36a8-4b98-8ab3-c6314e0d46d3.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225075757"
+      },
+      {
+        "id": 30243225108525,
+        "product_id": 7091448086573,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1387,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/guardian-angel-earring-closeup_925x_b61396af-60cd-44ce-a574-cf0933789fea.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225108525"
+      }
+    ],
+    "image": {
+      "id": 30243225075757,
+      "product_id": 7091448086573,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:50-07:00",
+      "updated_at": "2022-06-30T06:20:50-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 617,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/guardian-angel-earrings_925x_4599216e-36a8-4b98-8ab3-c6314e0d46d3.jpg?v=1656487250",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243225075757"
+    }
+  },
+  {
+    "id": 7091448184877,
+    "title": "Moon Charm Bracelet",
+    "body_html": "Moon 14k gold chain friendship bracelet.",
+    "vendor": "Company 123",
+    "product_type": "Bracelet",
+    "created_at": "2022-06-30T06:20:50-07:00",
+    "handle": "moon-charm-bracelet",
+    "updated_at": "2022-06-30T06:20:55-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Gold, Moon",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448184877",
+    "variants": [
+      {
+        "id": 40842067476525,
+        "product_id": 7091448184877,
+        "title": "Default Title",
+        "price": "47.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "49.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881569837,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067476525"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261223469,
+        "product_id": 7091448184877,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243225468973,
+        "product_id": 7091448184877,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1387,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/womens-hand-moon-bracelet-_925x_16883107-e73c-4cc4-b38b-e5146effd0fc.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225468973"
+      },
+      {
+        "id": 30243225501741,
+        "product_id": 7091448184877,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1386,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/moon-friendship-bracelet_925x_ae8c23a2-3e4e-462c-9269-6d94f18eb52b.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225501741"
+      },
+      {
+        "id": 30243225534509,
+        "product_id": 7091448184877,
+        "position": 3,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/womens-hand-charm-bracelet_925x_a1f1d54f-6eeb-4c95-a88f-530cb3163d66.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225534509"
+      }
+    ],
+    "image": {
+      "id": 30243225468973,
+      "product_id": 7091448184877,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:50-07:00",
+      "updated_at": "2022-06-30T06:20:50-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 1387,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/womens-hand-moon-bracelet-_925x_16883107-e73c-4cc4-b38b-e5146effd0fc.jpg?v=1656487250",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243225468973"
+    }
+  },
+  {
+    "id": 7091448348717,
+    "title": "Origami Crane Necklace",
+    "body_html": "Sterling silver origami crane necklace.",
+    "vendor": "Sterling Ltd",
+    "product_type": "Necklace",
+    "created_at": "2022-06-30T06:20:52-07:00",
+    "handle": "origami-crane-necklace",
+    "updated_at": "2022-06-30T06:20:55-07:00",
+    "published_at": "2022-06-30T06:20:49-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Crane, Origami, Silver",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448348717",
+    "variants": [
+      {
+        "id": 40842067673133,
+        "product_id": 7091448348717,
+        "title": "Default Title",
+        "price": "75.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": null,
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:52-07:00",
+        "updated_at": "2022-06-30T06:20:52-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881766445,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067673133"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261354541,
+        "product_id": 7091448348717,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243225862189,
+        "product_id": 7091448348717,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:52-07:00",
+        "updated_at": "2022-06-30T06:20:52-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/origami-crane-necklace-gold_925x_2615a008-83f2-4ee4-90a8-f12c2a46a72b.jpg?v=1656487252",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225862189"
+      },
+      {
+        "id": 30243225894957,
+        "product_id": 7091448348717,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:52-07:00",
+        "updated_at": "2022-06-30T06:20:52-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/silver-origami-necklace_925x_7728f921-9de4-471e-952e-356a7e303b25.jpg?v=1656487252",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225894957"
+      },
+      {
+        "id": 30243225927725,
+        "product_id": 7091448348717,
+        "position": 3,
+        "created_at": "2022-06-30T06:20:52-07:00",
+        "updated_at": "2022-06-30T06:20:52-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1386,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/origami-crane-necklace_925x_522b4da1-9957-4985-9776-75160b223477.jpg?v=1656487252",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225927725"
+      },
+      {
+        "id": 30243225960493,
+        "product_id": 7091448348717,
+        "position": 4,
+        "created_at": "2022-06-30T06:20:52-07:00",
+        "updated_at": "2022-06-30T06:20:52-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/womens-green-turtleneck_925x_86b0eec1-8334-4b2d-ac22-d34af64b78ff.jpg?v=1656487252",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225960493"
+      }
+    ],
+    "image": {
+      "id": 30243225862189,
+      "product_id": 7091448348717,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:52-07:00",
+      "updated_at": "2022-06-30T06:20:52-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 617,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/origami-crane-necklace-gold_925x_2615a008-83f2-4ee4-90a8-f12c2a46a72b.jpg?v=1656487252",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243225862189"
+    }
+  },
+  {
+    "id": 7091448152109,
+    "title": "Pretty Gold Necklace",
+    "body_html": "14k gold and turquoise necklace. Stunning beaded turquoise on gold and pendant filled double chain design.",
+    "vendor": "Company 123",
+    "product_type": "Necklace",
+    "created_at": "2022-06-30T06:20:50-07:00",
+    "handle": "pretty-gold-necklace",
+    "updated_at": "2022-06-30T06:20:55-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Gold, Turquoise",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448152109",
+    "variants": [
+      {
+        "id": 40842067410989,
+        "product_id": 7091448152109,
+        "title": "Default Title",
+        "price": "44.95",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "63.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881504301,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067410989"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261157933,
+        "product_id": 7091448152109,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243225305133,
+        "product_id": 7091448152109,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1386,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/pretty-gold-necklace_925x_bc1ecaea-c7fd-4a22-b52d-6aa615c7023b.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225305133"
+      },
+      {
+        "id": 30243225337901,
+        "product_id": 7091448152109,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1387,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/necklace-earrings-set_925x_0c8b4f5c-82b5-4225-8609-a05c94925163.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225337901"
+      },
+      {
+        "id": 30243225370669,
+        "product_id": 7091448152109,
+        "position": 3,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1387,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/inspired-woman_925x_d084caa3-fe92-4749-9b3c-7b9e752ac2af.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225370669"
+      }
+    ],
+    "image": {
+      "id": 30243225305133,
+      "product_id": 7091448152109,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:50-07:00",
+      "updated_at": "2022-06-30T06:20:50-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 1386,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/pretty-gold-necklace_925x_bc1ecaea-c7fd-4a22-b52d-6aa615c7023b.jpg?v=1656487250",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243225305133"
+    }
+  },
+  {
+    "id": 7091448119341,
+    "title": "Silver Threader Necklace",
+    "body_html": "Sterling silver chain thread through circle necklace.",
+    "vendor": "Sterling Ltd",
+    "product_type": "Necklace",
+    "created_at": "2022-06-30T06:20:49-07:00",
+    "handle": "silver-threader-necklace",
+    "updated_at": "2022-06-30T06:20:51-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Silver",
+    "admin_graphql_api_id": "gid://shopify/Product/7091448119341",
+    "variants": [
+      {
+        "id": 40842067378221,
+        "product_id": 7091448119341,
+        "title": "Default Title",
+        "price": "14.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": "19.99",
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881471533,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067378221"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038261125165,
+        "product_id": 7091448119341,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243225141293,
+        "product_id": 7091448119341,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 1385,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/silver-threader-necklace_925x_b6f3fdd1-a76c-4898-9cdb-cff36a678de9.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225141293"
+      },
+      {
+        "id": 30243225174061,
+        "product_id": 7091448119341,
+        "position": 2,
+        "created_at": "2022-06-30T06:20:50-07:00",
+        "updated_at": "2022-06-30T06:20:50-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 618,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/threader-necklace-closeup_925x_29261356-70dd-4bfb-93ca-5b505f2891c0.jpg?v=1656487250",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243225174061"
+      }
+    ],
+    "image": {
+      "id": 30243225141293,
+      "product_id": 7091448119341,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:50-07:00",
+      "updated_at": "2022-06-30T06:20:50-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 1385,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/silver-threader-necklace_925x_b6f3fdd1-a76c-4898-9cdb-cff36a678de9.jpg?v=1656487250",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243225141293"
+    }
+  },
+  {
+    "id": 7091447922733,
+    "title": "Stylish Summer Necklace",
+    "body_html": "Double chained gold boho necklace with turquoise pendant.",
+    "vendor": "Company 123",
+    "product_type": "Necklace",
+    "created_at": "2022-06-30T06:20:49-07:00",
+    "handle": "stylish-summer-neclace",
+    "updated_at": "2022-06-30T06:20:51-07:00",
+    "published_at": "2022-06-30T06:20:48-07:00",
+    "template_suffix": null,
+    "status": "active",
+    "published_scope": "web",
+    "tags": "Gold, Turquoise",
+    "admin_graphql_api_id": "gid://shopify/Product/7091447922733",
+    "variants": [
+      {
+        "id": 40842067116077,
+        "product_id": 7091447922733,
+        "title": "Default Title",
+        "price": "44.99",
+        "sku": "",
+        "position": 1,
+        "inventory_policy": "deny",
+        "compare_at_price": null,
+        "fulfillment_service": "manual",
+        "inventory_management": null,
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0,
+        "weight_unit": "kg",
+        "inventory_item_id": 42888881209389,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1,
+        "requires_shipping": true,
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40842067116077"
+      }
+    ],
+    "options": [
+      {
+        "id": 9038260928557,
+        "product_id": 7091447922733,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30243224748077,
+        "product_id": 7091447922733,
+        "position": 1,
+        "created_at": "2022-06-30T06:20:49-07:00",
+        "updated_at": "2022-06-30T06:20:49-07:00",
+        "alt": null,
+        "width": 925,
+        "height": 617,
+        "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/stylish-summer-necklace_925x_a9346a83-a088-4a21-ae7f-e3753d7aafa2.jpg?v=1656487249",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30243224748077"
+      }
+    ],
+    "image": {
+      "id": 30243224748077,
+      "product_id": 7091447922733,
+      "position": 1,
+      "created_at": "2022-06-30T06:20:49-07:00",
+      "updated_at": "2022-06-30T06:20:49-07:00",
+      "alt": null,
+      "width": 925,
+      "height": 617,
+      "src": "https://cdn.shopify.com/s/files/1/0586/9810/4877/products/stylish-summer-necklace_925x_a9346a83-a088-4a21-ae7f-e3753d7aafa2.jpg?v=1656487249",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30243224748077"
+    }
+  }
+]

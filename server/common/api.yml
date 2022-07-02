@@ -1,0 +1,420 @@
+openapi: 3.0.1
+info:
+  title: Shopify code challenge
+  description: Shopify code channenge
+  version: 1.0.0
+  contact:
+    name: Chopin Ngo
+    url: https://github.com/consatan/shopify-demo
+servers:
+- url: /api/v1
+tags:
+- name: Products
+  description: Shopify product endpoints
+- name: Collections
+  description: Shopify collection endpoints
+- name: Locations
+  description: Shopify location endpoints
+paths:
+  /products/import:
+    post:
+      tags:
+      - Products
+      description: Import products to Shopify with a csv file
+      parameters:
+      - name: overwrite
+        in: query
+        description: Overwriting product details using the import CSV file, see [official help](https://help.shopify.com/en/manual/products/import-export/using-csv#overwriting-product-details-using-an-import-csv-file)
+        schema:
+          type: boolean
+          default: false
+      - name: location_id
+        in: query
+        description: the location of variant inv
+        schema:
+          oneOf:
+            - type: string
+              pattern: '/^gid:\/\/shopify\/Location\/\d+$/i'
+            - type: integer
+              format: int64
+              minimum: 1
+      - name: collection_id
+        in: query
+        description: pull created product to this collection
+        schema:
+          oneOf:
+            - type: integer
+              format: int64
+              minimum: 1
+            - type: string
+              pattern: '/^gid:\/\/shopify\/Collection\/\d+$/i'
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                products:
+                  type: string
+                  format: binary
+                  description: CSV file made from [this sample file](https://help.shopify.com/csv/product_template.csv)
+      responses:
+        200:
+          description: Returns an array of products imported result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductsImportResponse'
+        400:
+          $ref: '#/components/responses/ClientError'
+        401:
+          $ref: '#/components/responses/UnauthorizedError'
+        500:
+          $ref: '#/components/responses/ServerError'
+
+  /collections:
+    post:
+      tags:
+      - Collections
+      description: Create a new collection
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CollectionCreateRequest'
+      responses:
+        200:
+          description: Return new collection info
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CollectionResponse'
+        400:
+          $ref: '#/components/responses/ClientError'
+        401:
+          $ref: '#/components/responses/UnauthorizedError'
+        500:
+          $ref: '#/components/responses/ServerError'
+
+  /collections/{id}:
+    put:
+      tags:
+      - Collections
+      description: Update collection
+      parameters:
+      - name: id
+        in: path
+        description: ID of collection to be update
+        required: true
+        schema:
+          type: integer
+          minimum: 1
+          format: int64
+          description: Shopify collection id
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CollectionUpdateRequest'
+      responses:
+        200:
+          description: Update collection success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CollectionResponse'
+        400:
+          $ref: '#/components/responses/ClientError'
+        401:
+          $ref: '#/components/responses/UnauthorizedError'
+        500:
+          $ref: '#/components/responses/ServerError'
+
+  /locations:
+    get:
+      tags:
+      - Locations
+      description: Fetch all locations
+      parameters:
+      - name: limit
+        in: query
+        description: Limit of pre page, default 50, max 250
+        schema:
+          type: integer
+          format: int32
+          minimum: 1
+          default: 50
+          maximum: 250
+      - name: cursor
+        in: query
+        description: cursor of pagination
+        schema:
+          type: string
+      responses:
+        200:
+          description: Returns all locations
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LocationsResponse'
+        400:
+          $ref: '#/components/responses/ClientError'
+        401:
+          $ref: '#/components/responses/UnauthorizedError'
+        500:
+          $ref: '#/components/responses/ServerError'
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-KEY
+
+  responses:
+    ClientError:
+      description: Client error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/CommonClientError'
+
+    UnauthorizedError:
+      description: Unauthorized error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/UnauthorizedError'
+
+    ServerError:
+      description: Server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/CommonServerError'
+
+  schemas:
+    BaseResponse:
+      type: object
+      properties:
+        status:
+          type: number
+          format: int32
+          example: 200
+          description: Http status code
+        data:
+          type: object
+          description: Response data
+        errors:
+          type: array
+          description: Error messages, return empty array if response success
+          example: []
+          items:
+            type: string
+
+    PaginationResponse:
+      type: object
+      properties:
+        limit:
+          type: number
+          format: int32
+          example: 50
+          description: page limit
+        next:
+          type: string
+          format: uri
+          example: https://api.example.com/api/v1/users?limit=50&cursor=next_abcd0123xyz
+          description: Next page url
+        provious:
+          type: string
+          format: uri
+          example: https://api.example.com/api/v1/users?limit=50&cursor=prev_abcd0123xyz
+          description: Previous page url
+
+    CommonClientError:
+      allOf:
+        - $ref: '#/components/schemas/BaseResponse'
+        - type: object
+          properties:
+            status:
+              example: 400
+            errors:
+              example: ['Bad request']
+
+    UnauthorizedError:
+      allOf:
+        - $ref: '#/components/schemas/BaseResponse'
+        - type: object
+          properties:
+            status:
+              example: 401
+            errors:
+              example: ["'X-API-KEY' header required"]
+
+    CommonServerError:
+      allOf:
+        - $ref: '#/components/schemas/BaseResponse'
+        - type: object
+          properties:
+            status:
+              example: 500
+            errors:
+              example: ['Unknown server error']
+
+    ProductsImportResponse:
+      allOf:
+        - $ref: '#/components/schemas/BaseResponse'
+        - type: object
+          properties:
+            data:
+              properties:
+                products:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        format: int64
+                        nullable: true
+                        description: Shopify product id, or `null` if create product failed
+                      handle:
+                        type: string
+                        description: A unique human-friendly string for the product. Automatically generated from the product's title
+                      url:
+                        type: string
+                        nullable: true
+                        description: Shopify product URL, or `null` if create product failed
+                      errors:
+                        type: string
+                        nullable: true
+                        description: create product fail reason message, or `null` if created success
+
+    CollectionRequest:
+      type: object
+      properties:
+        title:
+          type: string
+          description: Collection title
+        productIds:
+          type: array
+          description: Initial list of collection products
+          items:
+            oneOf:
+              - type: string
+                pattern: /^gid:\/\/shopify\/Product\/\d+$/i
+                description: Shopify product GraphQL ID
+              - type: integer
+                minimum: 1
+                format: int64
+                description: Shopify product REST API ID
+            description: Shopify product ID
+        published:
+          type: boolean
+          default: true
+          description: Whether the custom collection is published to the Online Store channel
+        publicationId:
+          oneOf:
+            - type: string
+              pattern: /^gid:\/\/shopify\/Publication\/\d+$/i
+              description: Shopify publication GraphQL ID
+            - type: integer
+              minimum: 1
+              format: int64
+              description: Shopify publication REST API ID
+          description: The ID of the publication
+        descriptionHtml:
+          type: string
+          description: The description of the collection, in HTML format
+        imageSrc:
+          type: string
+          description: The image associated with the collection
+        imageId:
+          oneOf:
+            - type: string
+              pattern: /^gid:\/\/shopify\/CollectionImage\/\d+$/i
+              description: Shopify collection image GraphQL ID
+            - type: integer
+              minimum: 1
+              format: int64
+              description: Shopify collection image REST API ID
+          description: Shopify collection image ID
+
+    CollectionResponse:
+      allOf:
+        - $ref: '#/components/schemas/BaseResponse'
+        - type: object
+          properties:
+            data:
+              type: object
+              properties:
+                id:
+                  type: integer
+                  format: int64
+                  description: collection id
+                handle:
+                  type: string
+                  description: A unique human-friendly string for the collection
+                url:
+                  type: string
+                  description: collection URL
+                published:
+                  type: boolean
+                  description: Is collection published
+
+    CollectionCreateRequest:
+      allOf:
+        - $ref: '#/components/schemas/CollectionRequest'
+        - type: object
+          required:
+            - title
+
+    CollectionUpdateRequest:
+      allOf:
+      - $ref: '#/components/schemas/CollectionRequest'
+      - type: object
+
+    LocationsResponse:
+      allOf:
+        - $ref: '#/components/schemas/BaseResponse'
+        - type: object
+          properties:
+            data:
+              type: object
+              properties:
+                data:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        format: int64
+                        description: Shopify location id
+                      isActive:
+                        type: boolean
+                        description: Is location active
+                      name:
+                        type: string
+                        description: A name of location
+                      country:
+                        type: string
+                        description: The country of location
+                      province:
+                        type: string
+                        description: The province of location
+                      city:
+                        type: string
+                        description: The city of location
+                      address1:
+                        type: string
+                        description: The first line of the address for the location
+                      address2:
+                        type: string
+                        description: The sceond line of the address for the location
+                pageInfo:
+                  allOf:
+                    - $ref: '#/components/schemas/PaginationResponse'
+
+security:
+  - ApiKeyAuth: []

@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
+
+      - name: Create .env file
+        uses: SpicyPizza/create-envfile@v1.3.0
+        with:
+          envkey_APP_ID: 'tests'
+          envkey_PORT: 3000
+          envkey_LOG_LEVEL: 'debug'
+          envkey_DEMO_API_KEY: 'tests'
+          envkey_OPENAPI_SPEC: '/api/v1/spec'
+          envkey_SHOPIFY_SHOP: ${{ secrets.SHOPIFY_SHOP }}
+          envkey_SHOPIFY_API_KEY:  ${{ secrets.SHOPIFY_API_KEY }}
+          envkey_SHOPIFY_API_TOKEN:  ${{ secrets.SHOPIFY_API_TOKEN }}
+          envkey_SHOPIFY_DEFAULT_LOCATION_ID:  ${{ secrets.SHOPIFY_DEFAULT_LOCATION_ID }}
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Run tests suite
+        run: npm run test:coverage
+
+      - name: Building
+        run: npm run compile
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}

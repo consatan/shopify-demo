@@ -1,0 +1,734 @@
+{
+    "chain-bracelet": {
+        "handle": "chain-bracelet",
+        "title": "7 Shakra Bracelet",
+        "descriptionHtml": "7 chakra bracelet, in blue or black.",
+        "vendor": "Company 123",
+        "productType": "Bracelet",
+        "tags": "Beads",
+        "published": true,
+        "options": ["Color"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/7-chakra-bracelet_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/navy-blue-chakra-bracelet_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Blue"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 42.99,
+                "compareAtPrice": 44.99,
+                "imageSrc": "https://burst.shopifycdn.com/photos/navy-blue-chakra-bracelet_925x.jpg",
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            },
+            {
+                "options": ["Black"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 0,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 42.99,
+                "compareAtPrice": 44.99,
+                "imageSrc": "https://burst.shopifycdn.com/photos/7-chakra-bracelet_925x.jpg",
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "leather-anchor": {
+        "handle": "leather-anchor",
+        "title": "Anchor Bracelet Mens",
+        "descriptionHtml": "Black leather bracelet with gold or silver anchor for men.",
+        "vendor": "Company 123",
+        "productType": "Bracelet",
+        "tags": "Anchor, Gold, Leather, Silver",
+        "published": true,
+        "options": ["Color"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/anchor-bracelet-mens_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/anchor-bracelet-for-men_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/leather-anchor-bracelet-for-men_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Gold"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 69.99,
+                "compareAtPrice": 85,
+                "imageSrc": "https://burst.shopifycdn.com/photos/anchor-bracelet-mens_925x.jpg",
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            },
+            {
+                "options": ["Silver"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 0,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 55,
+                "compareAtPrice": 85,
+                "imageSrc": "https://burst.shopifycdn.com/photos/anchor-bracelet-for-men_925x.jpg",
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "bangle-bracelet": {
+        "handle": "bangle-bracelet",
+        "title": "Bangle Bracelet",
+        "descriptionHtml": "Gold bangle bracelet with studded jewels.",
+        "vendor": "Company 123",
+        "productType": "Bracelet",
+        "tags": "Diamond, Gem, Gold",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/bangle-bracelet-with-jewels_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 39.99,
+                "compareAtPrice": 43.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "bangle-bracelet-with-feathers": {
+        "handle": "bangle-bracelet-with-feathers",
+        "title": "Boho Bangle Bracelet",
+        "descriptionHtml": "Gold boho bangle bracelet with multicolor tassels.",
+        "vendor": "Company 123",
+        "productType": "Bracelet",
+        "tags": "Gold",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/bangle-bracelet-with-feathers_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 42.99,
+                "compareAtPrice": 44.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "boho-earrings": {
+        "handle": "boho-earrings",
+        "title": "Boho Earrings",
+        "descriptionHtml": "Turquoise globe earrings on 14k gold hooks.",
+        "vendor": "Company 123",
+        "productType": "Earrings",
+        "tags": "Silver, Turquoise",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/boho-earrings_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/inspired-woman_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/necklace-earrings-set_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 27.99,
+                "compareAtPrice": 35.99,
+                "imageSrc": null,
+                "weightUnit": "OUNCES",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "choker-with-bead": {
+        "handle": "choker-with-bead",
+        "title": "Choker with Bead",
+        "descriptionHtml": "Black choker necklace with 14k gold bead.",
+        "vendor": "Company 123",
+        "productType": "Necklace",
+        "tags": "Gold, Leather",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/black-choker-with-bead_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/choker-with-bead_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 14.99,
+                "compareAtPrice": 19.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "choker-with-gold-pendant": {
+        "handle": "choker-with-gold-pendant",
+        "title": "Choker with Gold Pendant",
+        "descriptionHtml": "Black cord choker with gold pendant. Beautifully died black leather shapes a choker necklace with findings of 14k yellow gold, displaying gold pendant in a gorgeous balance of dark and light, delicate and strong.<ul>\n<li>14k yellow gold</li>\n<li>Leather</li>\n<li>Length, 12\" with 2.5\" extender</li>\n<li>Width, 0.3\"</li>\n<li>Lobster clasp</li>\n<li>Made in USA</li>\n</ul>",
+        "vendor": "Company 123",
+        "productType": "Necklace",
+        "tags": "Choker, Gold, Leather, Pendant",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/choker-with-gold-pendant_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/choker-pendant-closeup_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 29.99,
+                "compareAtPrice": null,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "choker-with-triangle": {
+        "handle": "choker-with-triangle",
+        "title": "Choker with Triangle",
+        "descriptionHtml": "Black choker with silver triangle pendant.",
+        "vendor": "Company 123",
+        "productType": "Necklace",
+        "tags": "Leather, Silver, Triangle",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/choker-with-triangle_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 47.99,
+                "compareAtPrice": 49.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "dainty-gold-neclace": {
+        "handle": "dainty-gold-neclace",
+        "title": "Dainty Gold Necklace",
+        "descriptionHtml": "Dainty gold necklace with two pendants.",
+        "vendor": "Company 123",
+        "productType": "Necklace",
+        "tags": "Gold, Pendant",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/dainty-gold-necklace_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/womens-gold-necklace_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 63.99,
+                "compareAtPrice": 69.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "dreamcatcher-pendant-necklace": {
+        "handle": "dreamcatcher-pendant-necklace",
+        "title": "Dreamcatcher Pendant Necklace",
+        "descriptionHtml": "Turquoise beaded dream catcher necklace. Silver feathers adorn this beautiful dream catcher, which move and twinkle as you walk.",
+        "vendor": "Sterling Ltd",
+        "productType": "Necklace",
+        "tags": "Dreamcatcher, Pendant, Silver, Turquoise",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/dreamcatcher-pendant-necklace_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/gold-dream-catcher-necklace_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 23.99,
+                "compareAtPrice": 41.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "galaxy-earrings": {
+        "handle": "galaxy-earrings",
+        "title": "Galaxy Earrings",
+        "descriptionHtml": "One set of galaxy earrings, with sterling silver clasps.",
+        "vendor": "Sterling Ltd",
+        "productType": "Earrings",
+        "tags": "Blue, Galaxy, Silver",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/galaxy-earrings_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 37.99,
+                "compareAtPrice": 45.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "gemstone": {
+        "handle": "gemstone",
+        "title": "Gemstone Necklace",
+        "descriptionHtml": "<p>Gemstone pendant, housed in sterling silver, with sterling silver chain.</p>\n<ul>\n<li>Sterling silver chain, 14 inches</li>\n<li>Turquoise or Quartz</li>\n<li>Boho Chic</li>\n<li>Made in USA</li>\n</ul>",
+        "vendor": "Sterling Ltd",
+        "productType": "Necklace",
+        "tags": "Blue, Gem, Purple, Silver, Turquoise",
+        "published": true,
+        "options": ["Colour"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/blue-gemstone-pendant_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/gemstone-necklace_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/womens-necklace_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/purple-gemstone-necklace_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Blue"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 27.99,
+                "compareAtPrice": 29.99,
+                "imageSrc": "https://burst.shopifycdn.com/photos/blue-gemstone-pendant_925x.jpg",
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            },
+            {
+                "options": ["Purple"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 0,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 27.99,
+                "compareAtPrice": 29.99,
+                "imageSrc": "https://burst.shopifycdn.com/photos/purple-gemstone-necklace_925x.jpg",
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "gold-bird-necklace": {
+        "handle": "gold-bird-necklace",
+        "title": "Gold Bird Necklace",
+        "descriptionHtml": "14k Gold delicate necklace, with bird between two chains.",
+        "vendor": "Company 123",
+        "productType": "Necklace",
+        "tags": "Bird, Gold",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/gold-bird-necklace_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 79.99,
+                "compareAtPrice": null,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "looped-earrings": {
+        "handle": "looped-earrings",
+        "title": "Gold Elephant Earrings",
+        "descriptionHtml": "Small 14k gold elephant earrings, with opal ear detail.",
+        "vendor": "Company 123",
+        "productType": "Earrings",
+        "tags": "Gold, Silver",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/elephant-earrings_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 54.99,
+                "compareAtPrice": null,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "guardian-angel-earrings": {
+        "handle": "guardian-angel-earrings",
+        "title": "Guardian Angel Earrings",
+        "descriptionHtml": "Sterling silver guardian angel earrings with diamond gemstones.",
+        "vendor": "Sterling Ltd",
+        "productType": "Earrings",
+        "tags": "Angel, Silver",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/guardian-angel-earrings_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/guardian-angel-earring-closeup_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 19.99,
+                "compareAtPrice": null,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "moon-charm-bracelet": {
+        "handle": "moon-charm-bracelet",
+        "title": "Moon Charm Bracelet",
+        "descriptionHtml": "Moon 14k gold chain friendship bracelet.",
+        "vendor": "Company 123",
+        "productType": "Bracelet",
+        "tags": "Gold, Moon",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/womens-hand-moon-bracelet-_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/moon-friendship-bracelet_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/womens-hand-charm-bracelet_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 47.99,
+                "compareAtPrice": 49.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "origami-crane-necklace": {
+        "handle": "origami-crane-necklace",
+        "title": "Origami Crane Necklace",
+        "descriptionHtml": "Sterling silver origami crane necklace.",
+        "vendor": "Sterling Ltd",
+        "productType": "Necklace",
+        "tags": "Crane, Origami, Silver",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/origami-crane-necklace-gold_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/silver-origami-necklace_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/origami-crane-necklace_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/womens-green-turtleneck_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 75.99,
+                "compareAtPrice": null,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "pretty-gold-necklace": {
+        "handle": "pretty-gold-necklace",
+        "title": "Pretty Gold Necklace",
+        "descriptionHtml": "14k gold and turquoise necklace. Stunning beaded turquoise on gold and pendant filled double chain design.",
+        "vendor": "Company 123",
+        "productType": "Necklace",
+        "tags": "Gold, Turquoise",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/pretty-gold-necklace_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/necklace-earrings-set_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/inspired-woman_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 44.95,
+                "compareAtPrice": 63.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "silver-threader-necklace": {
+        "handle": "silver-threader-necklace",
+        "title": "Silver Threader Necklace",
+        "descriptionHtml": "Sterling silver chain thread through circle necklace.",
+        "vendor": "Sterling Ltd",
+        "productType": "Necklace",
+        "tags": "Silver",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/silver-threader-necklace_925x.jpg"},
+            {"src": "https://burst.shopifycdn.com/photos/threader-necklace-closeup_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 14.99,
+                "compareAtPrice": 19.99,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    },
+    "stylish-summer-neclace": {
+        "handle": "stylish-summer-neclace",
+        "title": "Stylish Summer Necklace",
+        "descriptionHtml": "Double chained gold boho necklace with turquoise pendant.",
+        "vendor": "Company 123",
+        "productType": "Necklace",
+        "tags": "Gold, Turquoise",
+        "published": true,
+        "options": ["Title"],
+        "collectionsToJoin": [ "gid://shopify/Collection/321" ],
+        "images": [
+            {"src": "https://burst.shopifycdn.com/photos/stylish-summer-necklace_925x.jpg"}
+        ],
+        "variants": [
+            {
+                "options": ["Default Title"],
+                "inventoryQuantities": [{
+                    "availableQuantity": 1,
+                    "locationId": "gid://shopify/Location/123"
+                }],
+                "price": 44.99,
+                "compareAtPrice": null,
+                "imageSrc": null,
+                "weightUnit": "KILOGRAMS",
+                "inventoryPolicy": "DENY",
+                "taxable": true,
+                "requiresShipping": true,
+                "sku": null,
+                "barcode": null,
+                "taxCode": null
+            }
+        ]
+    }
+}
