@@ -3,7 +3,7 @@
 [![CI](https://github.com/consatan/shopify-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/consatan/shopify-demo/actions/workflows/ci.yml)
 [![Coverage Status](https://coveralls.io/repos/github/consatan/shopify-demo/badge.svg?branch=master)](https://coveralls.io/github/consatan/shopify-demo?branch=master)
 
-This repo is a code challenge of remote work, all demands were done, ~~and the tests code coverage over 95%~~(branch coverage is 78% due to optional chaining).
+This repo is a code challenge of remote work, all demands were done, ~~and the tests code coverage over 95%~~(branch coverage is 78% due to optional chaining, see [#516](https://github.com/istanbuljs/istanbuljs/issues/516)).
 
 This project uses [generator-express-no-stress-typescript](https://github.com/cdimascio/generator-express-no-stress-typescript) to generate the boilerplate.
 
