@@ -62,6 +62,7 @@ express.response.ok = function (data: any) {
   });
 };
 
+/* istanbul ignore next */
 express.response.error = function (
   message: string,
   status = 500,
@@ -104,7 +105,7 @@ export default class ExpressServer {
             ApiKeyAuth: (req, _scopes, _schema) => {
               // Simple authorize, ** Should not be used in production **
               return (
-                !process.env?.DEMO_API_KEY ||
+                !process.env.DEMO_API_KEY ||
                 process.env.DEMO_API_KEY === req.get('x-api-key')
               );
             },

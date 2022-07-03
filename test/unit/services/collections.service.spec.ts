@@ -4,6 +4,7 @@ import chai, { expect } from 'chai';
 import spy from 'chai-spies';
 import { CustomCollection } from '@shopify/shopify-api/dist/rest-resources/2022-04';
 import shopify from '../../../server/utils/shopify.util';
+import { CommonError } from '../../../server/common/error';
 import collectionsService, {
   CollectionRequest,
 } from '../../../server/api/services/collections.service';
@@ -109,5 +110,47 @@ describe('Collections service', () => {
       url: `https://${shopify.session.shop}/collections/test`,
       published: true,
     });
+  });
+});
+
+describe('Collections service fixed coverage', () => {
+  chai.use(spy);
+
+  it('should coverd all branches', async () => {
+    expect(await collectionsService.publish('invalid id')).to.false;
+
+    chai.spy.on(CustomCollection.prototype, 'saveAndUpdate', () => {
+      throw new Error('something wrong');
+    });
+
+    expect(await collectionsService.publish('123', false)).to.false;
+
+    chai.spy.restore();
+
+    chai.spy.on(shopify, 'mutation', () => {
+      throw new CommonError('something error', 501, ['error1', 'error2']);
+    });
+
+    try {
+      await collectionsService.create({ title: 'test collection' });
+    } catch (err) {
+      expect(err.status).to.be.equal(501);
+      expect(err.message).to.be.equal('something error');
+      expect(err.errors).to.deep.equal(['error1', 'error2']);
+    }
+
+    chai.spy.restore();
+
+    chai.spy.on(shopify, 'mutation', () => {
+      throw new CommonError('something error');
+    });
+
+    try {
+      await collectionsService.create({ title: 'test collection' });
+    } catch (err) {
+      expect(err.message).to.be.equal('something error');
+    }
+
+    chai.spy.restore();
   });
 });

@@ -3,6 +3,7 @@ import 'mocha';
 import chai, { expect } from 'chai';
 import spy from 'chai-spies';
 import util from '../../../server/utils/exceljs.util';
+import shopify from '../../../server/utils/shopify.util';
 import productsService from '../../../server/api/services/products.service';
 import { join } from 'path';
 import { Worksheet } from 'exceljs';
@@ -28,6 +29,48 @@ describe('Products service', () => {
     products.forEach((v, k) =>
       expect(v).to.deep.equal(actual[k], v.handle as string)
     );
+  });
+
+  it('should import product from worksheet', async () => {
+    chai.spy.on(shopify, 'mutation', (_name, _fields, input) => {
+      switch (input.handle) {
+        case 'chain-bracelet':
+          throw new Error('message');
+        case 'leather-anchor':
+          throw { errors: 'errors' };
+        case 'bangle-bracelet':
+          throw { errors: { message: 'errors' } };
+        case 'boho-earrings':
+          throw { status: 500 };
+        default:
+          return Promise.resolve({ handle: `${input.handle}_handle` });
+      }
+    });
+
+    const products = await productsService.import(worksheet, 123, 321);
+    chai.spy.restore();
+    products.forEach((v) => {
+      expect(v.id).to.null;
+      expect(v.url).to.null;
+
+      switch (v.handle) {
+        case 'chain-bracelet':
+          expect(v.errors).to.equal('message');
+          break;
+        case 'leather-anchor':
+          expect(v.errors).to.equal('errors');
+          break;
+        case 'bangle-bracelet':
+          expect(v.errors).to.eq('{"message":"errors"}');
+          break;
+        case 'boho-earrings':
+          expect(v.errors).to.equal('unknown error');
+          break;
+        default:
+          expect(v.errors).to.null;
+          expect(v.handle.endsWith('_handle')).to.true;
+      }
+    });
   });
 
   it('should overwrite products', async () => {

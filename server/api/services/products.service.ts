@@ -77,13 +77,13 @@ export class ProductsService {
           p.legacyResourceId = Number(product.legacyResourceId) || null;
         } catch (err) {
           l.error(err, 'create or update product failed', p);
-          p.errors = err?.message || err?.errors || 'unknown error';
+          p.errors = err.message || err.errors || 'unknown error';
         }
       })
     );
 
     return products.map((p) => ({
-      id: p.legacyResourceId as number | null,
+      id: (p.legacyResourceId || null) as number | null,
       handle: p.handle as string,
       url: p.legacyResourceId
         ? `https://${shopify.session.shop}/products/${p.handle}`
@@ -140,6 +140,7 @@ export class ProductsService {
 
       const handle = util.getStringCell(row, 'Handle');
       // Skipping if "Handle" column empty.
+      /* istanbul ignore else */
       if (handle) {
         const variant: ProductVariantInput = {};
         // If 'Option1 Value' is blank, is an image row, skip fetch variant
@@ -155,12 +156,14 @@ export class ProductsService {
           variant.imageSrc = util.getStringCell(row, 'Variant Image');
 
           const weightUnit = util.getStringCell(row, 'Variant Weight Unit');
+          /* istanbul ignore else */
           if (weightUnit) {
             variant.weightUnit =
               WeightUnit[weightUnit as keyof typeof WeightUnit];
           }
 
           const policy = util.getStringCell(row, 'Variant Inventory Policy');
+          /* istanbul ignore else */
           if (policy) {
             variant.inventoryPolicy =
               ProductVariantInventoryPolicy[
@@ -230,13 +233,14 @@ export class ProductsService {
 
         product.options = options;
         variant.options = variantOptions;
-        if (!isImageRow) {
-          product.variants?.push(variant);
+        if (!isImageRow && Array.isArray(product.variants)) {
+          product.variants.push(variant);
         }
 
         const image = util.getStringCell(row, 'Image Src');
-        if (image) {
-          product.images?.push({ src: image });
+        /* istanbul ignore else */
+        if (image && Array.isArray(product.images)) {
+          product.images.push({ src: image });
         }
 
         product.title = product.title || util.getStringCell(row, 'Title');
@@ -291,12 +295,16 @@ export class ProductsService {
         }[];
 
         let optionsChanged = false;
-        if (oldOptions.length !== newProduct.options?.length) {
-          optionsChanged = true;
+        if (Array.isArray(newProduct.options)) {
+          if (oldOptions.length !== newProduct.options.length) {
+            optionsChanged = true;
+          } else {
+            optionsChanged = newProduct.options.every(
+              (v, i) => v !== oldOptions[i].name
+            );
+          }
         } else {
-          optionsChanged = newProduct.options.every(
-            (v, i) => v !== oldOptions[i].name
-          );
+          optionsChanged = true;
         }
 
         // If options changed, overwrite variants and images, no more merging
@@ -306,9 +314,9 @@ export class ProductsService {
 
           oldVariants.forEach((oldVariant) => {
             const oldOptions = [
-              oldVariant?.option1,
-              oldVariant?.option2,
-              oldVariant?.option3,
+              oldVariant.option1,
+              oldVariant.option2,
+              oldVariant.option3,
             ] as string[];
 
             for (let i = 0; i < newVariants.length; i++) {
@@ -316,7 +324,7 @@ export class ProductsService {
               const newOptions = newVariant.options;
               if (
                 newOptions &&
-                !newVariant?.id &&
+                !newVariant.id &&
                 oldOptions.every((v, i) => v === (newOptions[i] || null))
               ) {
                 newVariant.id = shopify.getGraphQLId(
@@ -332,7 +340,8 @@ export class ProductsService {
                     GraphQLResource.ProductImage
                   );
 
-                  if (newProduct?.images?.length) {
+                  /* istanbul ignore else */
+                  if (newProduct.images?.length) {
                     // Save varitan's image
                     newProduct.images.push({ id: newVariant.imageId });
                   }

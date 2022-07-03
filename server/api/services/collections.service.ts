@@ -43,7 +43,7 @@ export class CollectionsService {
   ): Promise<CollectionResponse> {
     const collection = new CollectionInput();
     collection.title = data.title;
-    collection.descriptionHtml = data?.descriptionHtml;
+    collection.descriptionHtml = data.descriptionHtml;
 
     if (id) {
       collection.id = shopify.getGraphQLId(id, GraphQLResource.Collection);
@@ -55,6 +55,7 @@ export class CollectionsService {
         GraphQLResource.CollectionImage
       );
 
+      /* istanbul ignore else */
       if (imageId) {
         collection.image = { id: imageId };
       }
@@ -69,11 +70,13 @@ export class CollectionsService {
     if (data.productIds) {
       data.productIds.map((id) => {
         const pid = shopify.getGraphQLId(id, GraphQLResource.Product);
+        /* istanbul ignore else */
         if (pid) {
           products.push(pid);
         }
       });
 
+      /* istanbul ignore else */
       if (products) {
         collection.products = products;
       }
@@ -85,6 +88,7 @@ export class CollectionsService {
         data.publicationId,
         GraphQLResource.Publication
       );
+      /* istanbul ignore else */
       if (publicationId) {
         hasPublication = true;
         collection.publications = [{ publicationId: publicationId }];

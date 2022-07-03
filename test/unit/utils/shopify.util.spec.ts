@@ -94,26 +94,25 @@ describe('Shopify Util', () => {
 
   it('should get pageinfo', () => {
     expect(
-      util.getPageInfo(50, {
-        hasNextPage: true,
-        endCursor: 'abc',
-      })
-    ).to.deep.equal({
-      limit: 50,
-      next: 'next_abc',
-      previous: '',
-    });
+      util.getPageInfo(50, { hasNextPage: true, endCursor: 'abc' })
+    ).to.deep.equal({ limit: 50, next: 'next_abc', previous: '' });
+
+    expect(
+      util.getPageInfo(50, { hasNextPage: true, hasPreviousPage: true })
+    ).to.deep.equal({ limit: 50, next: '', previous: '' });
+
+    expect(
+      util.getPageInfo(50, { hasPreviousPage: true, startCursor: 'def' })
+    ).to.deep.equal({ limit: 50, next: '', previous: 'prev_def' });
 
     expect(
       util.getPageInfo(50, {
+        hasNextPage: true,
         hasPreviousPage: true,
+        endCursor: 'abc',
         startCursor: 'def',
       })
-    ).to.deep.equal({
-      limit: 50,
-      next: '',
-      previous: 'prev_def',
-    });
+    ).to.deep.equal({ limit: 50, next: 'next_abc', previous: 'prev_def' });
 
     expect(util.getPageInfo(50, {})).to.deep.equal({
       limit: 50,
@@ -122,7 +121,7 @@ describe('Shopify Util', () => {
     });
 
     expect(util.getPageInfo(-123, { hasNextPage: true })).to.deep.equal(
-      { limit: -123, next: 'next_undefined', previous: '' },
+      { limit: -123, next: '', previous: '' },
       'invalid format, but impossible'
     );
   });

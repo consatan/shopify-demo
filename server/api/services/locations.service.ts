@@ -37,7 +37,7 @@ export class LocationsService {
         ${shopify.graphqlPageInfo}
       }
     }`)
-    )?.locations as {
+    ).locations as {
       nodes: {
         id: string;
         name: string;
@@ -54,18 +54,21 @@ export class LocationsService {
     };
 
     const data: Location[] = [];
-    locations.nodes.map((n) => {
-      data.push({
-        id: shopify.getLegacyResourceId(n.id) as number,
-        name: n.name,
-        isActive: n.isActive,
-        country: n.address.country,
-        province: n.address.province,
-        city: n.address.city,
-        address1: n.address.address1,
-        address2: n.address.address2,
+    /* istanbul ignore else */
+    if (locations && Array.isArray(locations.nodes)) {
+      locations.nodes.map((n) => {
+        data.push({
+          id: shopify.getLegacyResourceId(n.id) as number,
+          name: n.name,
+          isActive: n.isActive,
+          country: n.address.country,
+          province: n.address.province,
+          city: n.address.city,
+          address1: n.address.address1,
+          address2: n.address.address2,
+        });
       });
-    });
+    }
 
     return {
       data: data,

@@ -57,7 +57,7 @@ export class Shopify {
 
     if (body.errors) {
       l.error(body.errors, 'graphql request error');
-      throw { status: 500, errors: body.errors?.map((err) => err.message) };
+      throw { status: 500, errors: body.errors.map((err) => err.message) };
     }
 
     if (!body.data) {
@@ -106,7 +106,7 @@ export class Shopify {
       };
     };
 
-    const data = result?.[name] as {
+    const data = result[name] as {
       userErrors: GraphQLUserError[];
       [key: string]: unknown;
     };
@@ -117,7 +117,7 @@ export class Shopify {
       throw new Error(msg);
     }
 
-    if (data?.userErrors?.length) {
+    if (data.userErrors?.length) {
       l.error(data.userErrors, 'mutation user errors');
       throw {
         status: 500,
@@ -126,7 +126,7 @@ export class Shopify {
     }
 
     const match = fields.match(/^\s*(\w+)\s*{/);
-    if (!match || !data?.[match[1]]) {
+    if (!match || !data[match[1]]) {
       const msg = 'GraphQL mutation response misssing required node';
       l.error(resp, msg, fields);
       throw new Error(msg);
@@ -204,12 +204,14 @@ export class Shopify {
   getPageInfo(limit: number, pageInfo: GraphQLPageInfo): PaginationPageInfo {
     return {
       limit: limit,
-      next: pageInfo.hasNextPage
-        ? this.PAGINATION_CURSOR_NEXT_PREFIX + pageInfo.endCursor
-        : '',
-      previous: pageInfo.hasPreviousPage
-        ? this.PAGINATION_CURSOR_PREVIOUS_PREFIX + pageInfo.startCursor
-        : '',
+      next:
+        pageInfo?.hasNextPage && pageInfo.endCursor
+          ? this.PAGINATION_CURSOR_NEXT_PREFIX + pageInfo.endCursor
+          : '',
+      previous:
+        pageInfo?.hasPreviousPage && pageInfo.startCursor
+          ? this.PAGINATION_CURSOR_PREVIOUS_PREFIX + pageInfo.startCursor
+          : '',
     };
   }
 

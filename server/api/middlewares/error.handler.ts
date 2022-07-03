@@ -3,7 +3,7 @@ import { Request, Response, NextFunction } from 'express';
 interface ErrorResponse {
   message?: string;
   status?: number | null;
-  errors?: unknown[] | unknown;
+  errors?: unknown;
   [key: string]: unknown;
 }
 
@@ -19,6 +19,7 @@ export default function errorHandler(
 
   if (err.errors) {
     if (Array.isArray(err.errors)) {
+      /* istanbul ignore else */
       if (err.errors.length) {
         errors = err.errors.map((e) => {
           if (typeof e === 'string') {
@@ -33,7 +34,7 @@ export default function errorHandler(
     } else if (typeof err.errors === 'string') {
       errors = [err.errors];
     } else if (
-      typeof err?.message !== 'string' &&
+      typeof err.message !== 'string' &&
       typeof err.errors === 'object' &&
       Object.keys(err.errors).length
     ) {

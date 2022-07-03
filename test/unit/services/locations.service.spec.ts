@@ -57,5 +57,24 @@ describe('Locations service', () => {
     });
 
     chai.spy.restore();
+
+    chai.spy.on(shopify, 'query', () =>
+      Promise.resolve({
+        locations: {
+          nodes: [],
+        },
+      })
+    );
+
+    expect(await locationsService.all()).to.deep.equal({
+      data: [],
+      pageInfo: {
+        limit: 50,
+        next: '',
+        previous: '',
+      },
+    });
+
+    chai.spy.restore();
   });
 });
